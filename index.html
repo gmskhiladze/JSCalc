@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/1/1e/Circle-icons-calculator.svg"
+        type="image/x-icon">
+
+    <link rel="stylesheet" href="./Styles/main.css">
+
+    <title>JS Calculator</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+
+            <!-- display -->
+            <input type="text" class="display" disabled>
+
+            <hr>
+
+            <!-- keys -->
+            <div class="keys">
+                <div class="row">
+                    <button value="C" class="operator clear">c</button>
+                    <button value="D" class="operator back">←</button>
+                    <button value="/" class="operator">÷</button>
+                </div>
+                <div class="row">
+                    <button value="7">7</button>
+                    <button value="8">8</button>
+                    <button value="9">9</button>
+                    <button value="*" class="operator">x</button>
+                </div>
+                <div class="row">
+                    <button value="4">4</button>
+                    <button value="5">5</button>
+                    <button value="6">6</button>
+                    <button value="-" class="operator">-</button>
+                </div>
+                <div class="row">
+                    <button value="1">1</button>
+                    <button value="2">2</button>
+                    <button value="3">3</button>
+                    <button value="+" class="operator">+</button>
+                </div>
+                <div class="row">
+                    <button value="0">0</button>
+                    <button value=".">.</button>
+                    <button value="=" class="operator equal">=</button>
+                </div>
+            </div>
+            <!-- <button value="C" class="operator">C</button> -->
+            <!-- <button value="0">0</button> -->
+            <!-- <button value="=" class="operator">=</button> -->
+        </div>
+    </div>
+
+
+    <script src="./src/calc.js"></script>
+
+</body>
+
+</html>
